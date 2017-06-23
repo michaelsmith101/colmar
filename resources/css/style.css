@@ -1,0 +1,29 @@
+/*Temporary Styles*/
+.stage-for-later{
+  background-color: rgba(150,150,150,0.5);
+  display: block;
+  margin-top: 50rem;
+}
+header{
+  background: rgba(255,150,150, 0.5);
+}
+/*Universal Styles*/
+
+/*Header*/
+header{
+  display: flex;
+  align-items: center;
+  height: 64px;
+}
+header img{
+  margin-left: 24px;
+}
+header nav{
+  margin-right: 24px;
+}
+header nav span{
+  padding-left: 16px;
+}
+header h1{
+  flex-grow: 1
+}
