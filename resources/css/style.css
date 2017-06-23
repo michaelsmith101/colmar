@@ -3,6 +3,7 @@
   background-color: rgba(150,150,150,0.5);
   display: block;
   margin-top: 50rem;
+  display: static;
 }
 header{
   background: rgba(255,150,150, 0.5);
@@ -26,4 +27,31 @@ header nav span{
 }
 header h1{
   flex-grow: 1
+}
+/*Banner*/
+section.banner{
+  width: 100%;
+  background-color: rgba(100,100,100, 0.5);
+  display: flex;
+  flex-direction: row;
+}
+.banner-image{
+  margin: 32px 40px 32px 24px;
+}
+.banner-text{
+  background-color: rgba(100,250,100,0.5);
+  display: flex;
+  flex-direction: column;
+}
+.banner-text h2{
+  font-size: 5rem;
+  background-color: rgba(100,250,100,0.5);
+}
+.banner-text h3{
+  font-size: 3rem;
+  background-color: rgba(100,250,100,0.5);
+}
+.banner-text button{
+  font-size: 2rem;
+  background-color: rgba(100,250,100,0.5);
 }
