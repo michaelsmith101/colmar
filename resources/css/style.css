@@ -1,14 +1,5 @@
 /*Temporary Styles*/
-.programs{
-  background-color: rgba(255,0,0,0.5);
-}
-.course-box{
-  background-color: rgba(175,175,250,0.5);
-  border: 0.5px solid black;
-}
-.course-box-container {
-  background-color: rgba(175,175,250,0.5);
-}
+
 .thesis{
   background-color: rgba(100,200,50,0.5);
 }
@@ -141,24 +132,52 @@ main {
 .information-box-text a{
   text-decoration: none;
 }
+#learn{
+  text-align: center;
+  background-color: rgb(200,200,200);
+  padding-top: 32px;
 }
+
 /*Program Listings*/
+}.programs{
+  display: flex;
+  justify-content: center;
+}
 .course-box-container{
   width: 100%;
-  justify-content: space-between;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(200,200,200);
 }
 .course-box{
-  float: left;
-  width: 25%;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+  background-color: #FFFFFF;
+  margin-top: 32px;
+  margin-bottom: 16px;
 }
 .course-box img{
   width: 100%;
 }
-.course-box-container{
-  content: "";
-  display: table;
-  clear: both;
+.course-box-text{
+  padding-left: 16px;
 }
+.course-box-text h3{
+  padding-top: 16px;
+  padding-bottom: 16px;
+  font-size: 1.5rem;
+}
+.course-box-text span{
+  text-transform: uppercase;
+  font-size: 1.15rem;
+}
+.course-box-text p{
+  padding-top: 16px;
+  padding-bottom: 24px;
+}
+
 /*Thesis Exhibit*/
 #thesis-header{
   text-align: center;
