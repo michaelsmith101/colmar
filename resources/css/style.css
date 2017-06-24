@@ -23,7 +23,16 @@ main {
 }
 .inspire-text{
   background-color: rgba(175,100,250,0.5);
-
+}
+.course-box{
+  background-color: rgba(175,175,250,0.5);
+  border: 0.5px solid black;
+}
+.course-box-container {
+  background-color: rgba(175,175,250,0.5);
+}
+.thesis{
+  background-color: rgba(100,200,50,0.5);
 }
 /*Universal Styles*/
 
@@ -55,8 +64,7 @@ header h1{
   margin: 32px 40px 32px 24px;
 }
 .banner-text{
-  display: flex;
-  flex-direction: column;
+  align-self: center;
 }
 .banner-text h2{
   font-size: 5rem;
@@ -74,5 +82,35 @@ header h1{
   margin-left: 24px;
 }
 .inspire-img{
-  margin: 32px 24px 32px 24px;
+  margin: 32px 24px 32px 0;
+}
+/*Program Listings*/
+.programs h2{
+  text-align: center;
+  padding: 32px 0;
+  align-items: center;
+}
+.course-box-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+/*Thesis Exhibit*/
+.thesis h2{
+  text-align: center;
+  padding: 32px 0;
+  align-items: center;
+}
+.thesis{
+  display: flex;
+  flex-direction: column;
+  margin-left: 24px;
+}
+.thesis-video-container{
+  margin: 32px 24px 32px 0;
+}
+.thesis-video-container video{
+  height: inherit;
+  width: inherit;
 }
