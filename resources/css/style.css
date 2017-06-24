@@ -122,3 +122,10 @@ main {
   margin-left: 24px
 }
 /*Footer*/
+footer{
+  display: flex;
+}
+footer span{
+  display: flex;
+  flex-grow: 1;
+}
