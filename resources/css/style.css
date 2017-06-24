@@ -1,4 +1,5 @@
 /*Temporary Styles*/
+
 .stage-for-later{
   background-color: rgba(150,150,150,0.5);
   display: block;
@@ -16,7 +17,6 @@ header{
 }
 main {
   background-color: rgba(100,250,250,0.5);
-  display: flex;
 }
 .inspire{
   background-color: rgba(100,100,250,0.5);
@@ -33,6 +33,9 @@ main {
 }
 .thesis{
   background-color: rgba(100,200,50,0.5);
+}
+.thesis h2{
+  background-color: rgba(255,0,0,0.1);
 }
 /*Universal Styles*/
 
@@ -76,6 +79,9 @@ header h1{
   font-size: 2rem;
 }
 /*Main information*/
+main {
+    display: flex;
+}
 .inspire{
   display: flex;
   flex-direction: column;
@@ -97,20 +103,22 @@ header h1{
   flex-wrap: wrap;
 }
 /*Thesis Exhibit*/
-.thesis h2{
+#thesis-header{
   text-align: center;
   padding: 32px 0;
   align-items: center;
+  background-color: red;
 }
 .thesis{
   display: flex;
-  flex-direction: column;
-  margin-left: 24px;
 }
 .thesis-video-container{
-  margin: 32px 24px 32px 0;
+  display: flex;
+  flex-direction: column;
 }
-.thesis-video-container video{
-  height: inherit;
-  width: inherit;
+.thesis-video video{
+  height: auto;
+  width: 1104px; /*same width as the man reading*/
+  margin-left: 24px
 }
+/*Footer*/
