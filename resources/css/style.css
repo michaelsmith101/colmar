@@ -203,8 +203,14 @@ main {
 /*Footer*/
 footer{
   display: flex;
+  margin-bottom: 300px;
+  border-top: 0.2px solid rgba(200,200,200,0.5);
+  padding-top: 24px;
 }
-footer span{
-  display: flex;
+footer p{
+  margin-left: 24px;
   flex-grow: 1;
+}
+footer nav span{
+  margin-right: 24px;
 }
