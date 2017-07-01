@@ -12,12 +12,17 @@
     <header>
       <img src="./resources/images/ic-logo.svg" alt="Colmar Logo">
       <h1>Colmar<span>Academy</span></h1>
-      <nav>
-        <span>On Campus</span>
-        <span>Online</span>
-        <span>For Companies</span>
-        <span>Sign In</span>
-      </nav>
+      <ul class="desktop">
+        <li>On Campus</li>
+        <li>Online</li>
+        <li>For Companies</li>
+        <li>Sign In</li>
+      </ul>
+      <ul class="mobile">
+        <li><img src="./resources/images/ic-on-campus.svg"  alt="on campus"></li>
+        <li><img src="./resources/images/ic-online.svg"  alt="online"></li>
+        <li><img src="./resources/images/ic-login.svg"  alt="login"></li>
+      </ul>
     </header>
     <section class="banner">
       <div class="banner-image">
@@ -48,6 +53,7 @@
 
         <div class="information-box">
           <img src="./resources/images/information-orientation.jpg" alt="Orientation Picture">
+          <img class = "mobile" src="./resources/images/information-orientation-mobile.jpg" alt="Orientation Picture">
           <div class="information-box-text">
             <h4>Orientation Date</h4>
             <p>Tue 10/11 & Wed 10/12: 8am-3pm<p>
@@ -57,6 +63,7 @@
 
         <div class="information-box">
           <img src="./resources/images/information-campus.jpg" alt="Campus">
+          <img class = "mobile" src="./resources/images/information-campus-mobile.jpg" alt="Campus">
           <div class="information-box-text">
             <h4>Our Campus</h4>
             <p>Find which campus is close to you</p>
@@ -66,6 +73,7 @@
 
         <div class="information-box">
           <img src="./resources/images/information-guest-lecture.jpg" alt="Guest Lecture">
+          <img class = "mobile" src="./resources/images/information-guest-lecture-mobile.jpg" alt="Guest Lecture">
           <div class="information-box-text">
             <h4>Our Guest Lecture</h4>
             <p>Join a keynote with Oliver Sack about music in medical treatment</p>
@@ -157,7 +165,7 @@
         </div>
       </div>
       <div class="information">
-        <div class="information-box">
+        <div class="information-box thesis-info">
           <img src="./resources/images/thesis-fisma.jpg" alt="">
           <div class="information-box-text">
               <h4>Fisma: Design and<h4>
@@ -165,7 +173,7 @@
           </div>
         </div>
 
-        <div class="information-box">
+        <div class="information-box thesis-info">
           <img src="./resources/images/thesis-now-and-then.jpg" alt="">
           <div class="information-box-text">
             <h4>Now and then</h4>
