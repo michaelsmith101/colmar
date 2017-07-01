@@ -226,6 +226,8 @@ footer nav span{
 /*universal*/
 html {
   font-size: 14px;
+  min-width: 420px;
+  max-width: 420px;
 }
 /*header*/
 header h1{
@@ -257,13 +259,14 @@ ul.mobile{
 }
 .information-box{
   display: block;
+  border: none;
 }
 .information-box img{
   display: none;
 }
 .information-box img.mobile{
   display: block;
-  width: 100%;
+  width: 95%;
   margin: 16px 16px;
 }
 .information-box-text{
@@ -282,6 +285,7 @@ ul.mobile{
   flex-direction: row;
   justify-content: space-around;
   background-color: white;
+  margin-left: 16px;
 }
 .course-box{
   background-color: rgb(200,200,200);
@@ -298,5 +302,10 @@ ul.mobile{
 }
 .thesis-video video{
   margin: 0;
+  width: 100%;
+}
+/*footer*/
+footer nav span{
+  display: none;
 }
 }
